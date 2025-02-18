@@ -1,0 +1,36 @@
+.quiz-creator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.page {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 10px;
+  padding: auto;
+  margin: 2;
+}
+
+.question-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin: 20px auto;
+}
+
+.question-form input, .quiz-creator input, .quiz-creator textarea {
+  padding: 8px;
+  margin: 5px;
+  width: 300px;
+}
+
+.quiz-creator textarea {
+  min-height: 100px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+}
