@@ -2,28 +2,27 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px;
+  padding: 5px;
 }
 
 .page {
   display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 10px;
+  grid-template-columns: 70% 30%;
+  gap: 3px;
   padding: auto;
   margin: 2;
 }
 
 .question-form {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  
   gap: 10px;
-  margin: 20px auto;
+  margin: 5px auto;
 }
 
 .question-form input, .quiz-creator input, .quiz-creator textarea {
   padding: 8px;
   margin: 5px;
-  width: 300px;
+
 }
 
 .quiz-creator textarea {

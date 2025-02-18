@@ -58,17 +58,18 @@ export function QuizCreator() {
                         value={videoUrl}
                         onChange={e => setVideoUrl(e.target.value)}
                         placeholder="Enter YouTube video URL and press Enter"
+                        
                     />
                     <button type="submit">Load Video</button>
                 </form>
                 {videoId && (
                     <div className="video-container">
-                        <YouTube videoId={videoId} opts={{ width: '100%', height: '390' }} />
+                        <YouTube videoId={videoId} opts={{ width: '500', height: '390' }} />
                         <div className="transcript-demo">
                             <button
                                 onClick={() =>
                                     setTranscript(
-                                        "This is a demo transcript. It simulates how a transcript might be loaded and displayed from the video."
+                                        "This is a demo. It simulates how a transcript might be loaded and displayed from the video."
                                     )
                                 }
                             >
