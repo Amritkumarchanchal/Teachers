@@ -69,7 +69,7 @@ export function QuizCreator() {
                             <button
                                 onClick={() =>
                                     setTranscript(
-                                        "This is a demo transcript. It simulates how a transcript might be loaded and displayed from the video."
+                                        "This is a demo. It simulates how a transcript might be loaded and displayed from the video."
                                     )
                                 }
                             >
